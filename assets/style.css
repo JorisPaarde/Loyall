@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+
+.hero-image {
+  height: 80vh;
+  background-image: url("./header-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-image .logo {
+  position: absolute;
+  top: 40vh;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text-center {
+  text-align: center;
+}
